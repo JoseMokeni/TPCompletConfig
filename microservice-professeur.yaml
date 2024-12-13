@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/MSProfesseur?createDatabaseIfNotExist=true&serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: root
+    password: "{cypher}3ec3fd3ff43ffcd4afaf94a9dc99f6b81bd64465eaaea42b69d2ec76972fd4ce"
   jpa:
     hibernate:
       ddl-auto: create
