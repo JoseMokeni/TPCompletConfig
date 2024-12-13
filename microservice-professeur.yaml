@@ -15,3 +15,11 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
 server:
   port: 9000
+
+eureka:
+  client:
+    registerWithEureka: true # Facultatif
+    fetchRegistry: true # Facultatif
+    preferIpAddress: true # Facultatif
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka
