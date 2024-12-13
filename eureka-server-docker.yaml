@@ -1,0 +1,11 @@
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka:8070/eureka
+  server:
+    waitTimeInMsWhenSyncEmpty: 5
+
+server:
+  port: 8070
