@@ -22,4 +22,4 @@ spring:
             - RewritePath=/cours/(?<path>.*), /$\{path}
 
 server:
-  port: 8000
+  port: 8080
